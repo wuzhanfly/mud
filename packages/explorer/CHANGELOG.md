@@ -1,5 +1,29 @@
 # @latticexyz/explorer
 
+## 2.2.15
+
+### Patch Changes
+
+- 07b6be8: The transactions list in the explorer is now updated every 100ms instead of on every incoming transaction, to improve performance when there are many incoming transactions.
+- 722f4b4: The columns in the Explore tab table are now sorted correctly according to their types.
+- 0592406: Added support for ERC-4337 bundled transactions, monitoring them by either listening to chain blocks or using the `observer` transport wrapper. Each user operation within a bundled transaction is displayed as an individual transaction in the Observe tab.
+- 0facee0: When accessing a new table in Explore tab, the SQL editor now encloses all column names in double quotes in order to prevent invalid queries.
+- 2be543f: Fixed world ABI fetching in Rhodolite.
+- d542357: Transactions in `Observe` tab now display decoded `callFrom` function calls.
+- 9c1ca41: When accessing a new table in Explore tab, the SQL editor now encloses column names that are also PostgreSQL keywords in double quotes in order to prevent invalid queries.
+- Updated dependencies [cd9fd0a]
+- Updated dependencies [22674ad]
+- Updated dependencies [9ddc874]
+  - @latticexyz/store-sync@2.2.15
+  - @latticexyz/world@2.2.15
+  - @latticexyz/store-indexer@2.2.15
+  - @latticexyz/store@2.2.15
+  - @latticexyz/block-logs-stream@2.2.15
+  - @latticexyz/common@2.2.15
+  - @latticexyz/config@2.2.15
+  - @latticexyz/protocol-parser@2.2.15
+  - @latticexyz/schema-type@2.2.15
+
 ## 2.2.14
 
 ### Patch Changes

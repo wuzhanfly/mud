@@ -1,5 +1,11 @@
 # @latticexyz/block-logs-stream
 
+## 2.2.15
+
+### Patch Changes
+
+- @latticexyz/common@2.2.15
+
 ## 2.2.14
 
 ### Patch Changes

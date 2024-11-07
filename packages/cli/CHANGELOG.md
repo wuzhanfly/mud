@@ -1,5 +1,25 @@
 # Change Log
 
+## 2.2.15
+
+### Patch Changes
+
+- 3168f1f: Deployer now retrieves resource tags by fetching logs to work around RPC rate limiting issues.
+- ee388ed: Deployer will now throw an error if it detects an already registered table with a different schema than the one you are trying to deploy.
+- Updated dependencies [5340394]
+- Updated dependencies [22674ad]
+  - @latticexyz/abi-ts@2.2.15
+  - @latticexyz/world@2.2.15
+  - @latticexyz/store@2.2.15
+  - @latticexyz/world-module-metadata@2.2.15
+  - @latticexyz/block-logs-stream@2.2.15
+  - @latticexyz/common@2.2.15
+  - @latticexyz/config@2.2.15
+  - @latticexyz/gas-report@2.2.15
+  - @latticexyz/protocol-parser@2.2.15
+  - @latticexyz/schema-type@2.2.15
+  - @latticexyz/utils@2.2.15
+
 ## 2.2.14
 
 ### Patch Changes
